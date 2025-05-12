@@ -1,4 +1,19 @@
 # QuickConnect - Real-Time Chat and Video Calling Application
+
+QuickConnect is a full-stack real-time chat and video calling application designed to connect users worldwide. With features like instant messaging, video calls, and language learning partnerships, Streamify is the perfect platform for seamless communication.
+
+---
+## 🚀 Features
+
+- 💬 **Real-Time Chat**: Send and receive messages instantly with a sleek and responsive UI.
+- 🎥 **Video Calling**: Start high-quality video calls with your friends and language partners.
+- 🤝 **Friend Requests**: Send and accept friend requests to build your network.
+- 🔔 **Notifications**: Stay updated with real-time notifications for friend requests and messages.
+- 👤 **User Onboarding**: Personalize your profile with bio, location, and profile picture.
+- 🌐 **Language Learning**: Connect with language partners to practice and improve your skills.
+- 🌙 **Dark Mode**: Switch between light and dark themes for a comfortable user experience.
+
+---
 ## 🛠️ Tech Stack
 
 ### 🖥️ Frontend
