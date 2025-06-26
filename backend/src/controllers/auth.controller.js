@@ -26,7 +26,9 @@ export async function signup(req, res) {
     }
 
     const idx = Math.floor(Math.random() * 100) + 1; // generate a num between 1-100
-    const randomAvatar = `https://avatar.iran.liara.run/public/${idx}.png`;
+    // const randomAvatar = `https://avatar.iran.liara.run/public/${idx}.png`;
+    const randomAvatar = `https://api.dicebear.com/7.x/adventurer/svg?seed=${idx}`;
+
 
     const newUser = await User.create({
       email,
@@ -34,7 +36,7 @@ export async function signup(req, res) {
       password,
       profilePic: randomAvatar,
     });
-
+    //Optional Integration
     try {
       await upsertStreamUser({
         id: newUser._id.toString(),
